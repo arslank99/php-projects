@@ -1,0 +1,102 @@
+html {
+scroll-behavior: smooth;
+}
+/*logo color*/
+.navbar-brand{
+font-family: 'Ubuntu', sans-serif;
+font-weight: bold;
+font-size: 2em;
+}
+/*Menu color*/
+.navbar #mymenu .custom-nav .nav-item a {
+color: #fff;
+}
+.navbar #mymenu .custom-nav .nav-item a:hover {
+color: #f0aab1;
+}
+.Jumbotron{
+background:url(../images/screw.jpg.);
+background-size: cover;
+background-position:top center;
+background-repeat: no-repeat;
+width: 100%;
+height: 90vh;
+}
+#custom-bg{
+position: relative;
+}
+
+.bg-custom{
+   background-color: #676f785c;
+}
+.overlay{
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+width: 100%;
+height: 90vh;
+background-color: rgba(0,0,0,0.5);
+z-index: 2;
+}
+#showed h1{
+   font-size: 35px;
+}
+#showed{
+z-index: 99;
+font-size: 24px;
+color: white;
+}
+.custom-margin{
+margin: 250px 0;
+}
+.foot a {
+color: darkred;
+}
+.foot a:hover {
+color:white;
+transition: 0.6s ease;
+}
+#Profile a{
+color: black;
+text-decoration: none;
+}
+@media only screen and (max-width: 800px){
+.custom-margin{
+margin: 100px 0;
+}
+
+.marjin-bot{
+   margin-bottom: 11px;
+}
+
+.Jumbotron{
+background:url(../images/screw.jpg.);
+background-size:contain;
+background-position:bottom;
+background-repeat: no-repeat;
+width: 100%;
+height:auto;
+}
+.overlay{
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+width: 100%;
+height:auto;
+background-color: rgba(0,0,0,0.5);
+z-index: 2;
+}
+#showed h1 {
+font-size: 28px;
+}
+#showed p {
+font-size: 18px;
+}
+#showed a{
+font-size: 13px;
+}
+}
