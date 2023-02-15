@@ -1,0 +1,152 @@
+/* 
+=============================
+        Css Color 
+============================= 
+*/
+.custom-color{
+    background-color: #225470;
+}
+
+.custom-hover .main-div:hover {
+    background-color: #fff;
+    color: #225470;
+    padding: 0px 1px;
+    transition: 0.6s ease;
+
+}
+
+/*
+=============================
+        Navbar Css 
+ ============================
+ */
+
+ .over{
+       overflow-x: hidden;
+       position: relative;
+ }
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif !important;
+    font-size: 2em;
+    color: #fff;
+}
+.custom-nav .custom-nav-item a {
+    color: #fff;
+}
+.custom-nav-item:hover{
+    background-color: #dc3545;
+    transition: 0.5s;
+    border:solid  #dc3545 1px;
+    border-radius: 10px;
+
+}
+
+/*=================================
+         Video setting Css
+ ================================== */
+.vid-parent{
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #225470;
+    opacity: 0.7;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+}
+
+.video-content {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    text-align: center;
+    color: #fff;
+}
+
+
+/*
+==========================
+      Contact us Css
+========================== 
+*/
+.stripe {
+    background-image: linear-gradient(240deg,#ed213a,#93291e);
+    color: #fff;
+    padding: 1rem;
+    height: 10rem;
+    margin-top: 4rem;
+    transform: rotate(10deg);
+    z-index: -5;
+}
+
+/*
+==========================
+      SLider Css
+========================== 
+*/
+
+.pic{
+    width: 40%;
+}
+
+.slider-p{
+    border-top: 1px solid #ffffff85;
+    border-right: 1px solid #ffffff85;
+    border-bottom:1px solid #ffffff85;
+    border-left: 2px solid red;
+    padding: 10px;
+}
+
+.pic img{
+    width: 100%;
+    border-radius: 100px;
+}
+
+.img-custom img {
+    width: 100%;
+    height: 600px;
+}
+
+/*
+============================
+        Media Qurey Css
+============================ 
+ */
+
+ @media only screen and (max-width:800px){
+    .my-content {
+        display: none;
+    }
+   
+     .video-content h1 {
+        display: none;
+     }
+
+     .video-content h5 {
+        display: none;
+     }
+      
+    .mydisplay{
+        display: none;
+    }
+
+    .custom-nav-item a {
+        background-color: #225470;
+        padding: 10px 20px; 
+    }
+    .custom-nav-item:hover{
+        background-color:none;
+        border:none;
+        border-radius:none;
+    
+    }
+ } 
