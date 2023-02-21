@@ -26,7 +26,7 @@
   ?>
 <div class="col-md-6">
   <div class="card mt-3">
-    <img src="<?php echo $crow["course_img"];?>" class="card-img-top img-fluid" alt="image">
+    <img src="<?php echo str_replace("..",".",$crow["course_img"]);?>" class="card-img-top img-fluid" alt="image">
     <div class="card-body">
       <h5 class="card-title"><?php echo $crow["course_name"];?></h5>
       <p class="card-text"><?php echo $crow["course_desc"];?></p>

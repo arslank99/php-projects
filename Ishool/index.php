@@ -60,7 +60,7 @@
   ?>
 <div class="col-md-4">
   <div class="card mt-3">
-    <img src="<?php echo $row_dynamic["course_img"];?>" class="card-img-top img-fluid" alt="image">
+    <img src="<?php echo str_replace("..",".",$row_dynamic["course_img"]);?>" class="card-img-top img-fluid" alt="image">
     <div class="card-body">
       <h5 class="card-title"><?php echo $row_dynamic["course_name"];?></h5>
       <p class="card-text"><?php echo $row_dynamic["course_desc"];?></p>
@@ -100,7 +100,7 @@
                   <div class="item">
                     <p class="slider-p"><?php echo $row_dynamic['f_content']; ?></p>
                      <div class="pic">
-                      <img src="<?php echo $row_dynamic['stu_img'];?>" class="img-fluid" alt="">
+                      <img src="<?php echo str_replace("..",".",$row_dynamic["stu_img"]);?>" class="img-fluid" alt="">
                      </div>
                      <div class="testimonial-prof">
                         <h4 class="text-warning"><?php echo $row_dynamic['stu_name'];?></h4>
